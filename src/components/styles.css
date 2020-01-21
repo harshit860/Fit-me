@@ -1,0 +1,137 @@
+.name {
+    width: 17%;
+  }
+  input {
+      width: 35%;
+      padding: 5px 20px;
+      margin: 8px 5px;
+      box-sizing: border-box;
+  }
+  .select {
+    width: 35%;
+    padding: 5px 20px;
+    margin: 8px 5px;
+    box-sizing: border-box;
+  }
+  .register-form {
+    width: 35%;
+  }
+
+  .register-btn {
+    width: 150px;
+  }
+  .nav
+  {
+    box-shadow: 1px 5px 10px grey ;
+  }
+  .text_size
+  {
+      font-size: 30px;
+      font-weight: 290;
+  }
+  
+  
+  .text_size1
+  {
+      font-size: 15px;
+      font-weight: 400;
+  }
+  .bgimage
+  {
+    height:500px; 
+    background-image: url("https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .mtop
+  {
+       margin-top:10%;
+      margin-left:35%;
+      color: white;
+      
+  }
+  .mtop:hover
+  {
+      background-color:white;
+      color: green;
+      
+  }
+  .mtop2
+  {
+      
+      margin-left:20%;
+      
+  }
+  @media(max-width:770px)
+  {
+     .mtop{
+            display: none;
+     }
+     .text_size
+     {
+         font-size: 20px;
+         font-weight: 380;
+     }
+     .text_size1{
+         font-size: 15px;
+     }
+     .info{
+       font-size:5px;
+       width:500px;
+      
+     }
+     .infono
+     {
+       display: none;
+     }
+
+      
+  }
+  @media(max-width:500px)
+  {
+    .buttonarrange{
+      margin-top:-250px;
+    }
+  }
+  @media(max-width:420px)
+  {
+    .full{
+      width:200px;
+    }
+    .cont
+    {
+      width: 250px;
+      margin-left: 10px;
+    }
+    
+  }
+  @media(max-width:450px)
+  {
+    .buttonarrange
+    {
+      margin-top:-280px;
+    }
+  }
+  @media(max-width:670px)
+  {
+    .cont
+    {
+      width: 250px;
+      margin-left: 10px;
+    }
+ 
+  }
+  .user_touch{
+    font-size: 20px;
+   color:black
+
+  }
+  .user_touch:hover{
+    font-size:20px;
+    background-color: whitesmoke;
+    color:black;
+    
+  }
+  .heading_info{
+    font-size: 20px;
+  }
